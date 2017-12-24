@@ -1,0 +1,155 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 18px Verdana;
+    color: #FFF;
+    background: #CCC;
+}
+
+#picbox {
+    margin: 0px auto;
+    width: 640px;
+    height: 395px;
+}
+
+#boxcard {
+    z-index: 1;
+    margin: 10px 0 0;
+}
+
+    #boxcard div {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        padding: 5px;
+        border: 4px solid darkgrey;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 1px 5px rgba(0,0,0,.5);
+        background: #B1B1B1;
+        z-index: 2;
+    }
+
+        #boxcard div img {
+            display: block;
+            height: 50px;
+            border-radius: 10px;
+            z-index: 3;
+        }
+
+
+#boxcard1 {
+    z-index: 1;
+    margin: 10px 0 0;
+}
+
+    #boxcard1 div {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        padding: 5px;
+        border: 4px solid darkgrey;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 1px 5px rgba(0,0,0,.5);
+        background: #B1B1B1;
+        z-index: 2;
+    }
+
+        #boxcard1 div img {
+            display: block;
+            height: 50px;
+            border-radius: 10px;
+            z-index: 3;
+        }
+
+
+#boxcardimg {
+    z-index: 1;
+    margin: 10px 0 0;
+    display: none;
+}
+
+    #boxcardimg div {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin: 106px;
+        padding: 5px;
+        border: 4px solid darkgrey;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 1px 5px rgba(0,0,0,.5);
+        background: #B1B1B1;
+        z-index: 2;
+    }
+
+        #boxcardimg div img {
+            display: block;
+            height: 50px;
+            border-radius: 10px;
+            z-index: 3;
+        }
+
+#boxbuttons {
+    text-align: center;
+    margin: 20px;
+    display: none;
+}
+
+    #boxbuttons .button {
+        text-transform: uppercase;
+        background: #EE872A;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+
+        #boxbuttons .button:hover {
+            background: #999;
+        }
+h1 {
+    margin-left: 416px;
+}
+
+#resultmsg {
+    display:none;
+}
+
+#Gameimg {
+    float: left;
+    width: 240px;
+    height: 259px;
+    background: #999;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: -216px;
+}
+
+
+#Allimg {
+    float: right;
+    width: 390px;
+    height: 330px;
+    margin-right: -289px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #999;
+}
+
+#timerDiv{
+    margin-left:-193px;
+}
+
+#resultmsg {
+    top: 373px;
+    margin-left: 148px;
+}
